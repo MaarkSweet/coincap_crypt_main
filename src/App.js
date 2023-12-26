@@ -18,7 +18,7 @@ function App() {
   }, [limit])
 
   const handleRefresh = () => {
-    setLimit(20)
+    setLimit(40)
     window.scrollTo(0, 0)
   }
 
