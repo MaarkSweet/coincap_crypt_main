@@ -4,7 +4,7 @@ import { useState, useEffect } from "react"
 
 function App() {
   const [coins, setCoins] = useState([])
-  const [limit, setLimit] = useState(20)
+  const [limit, setLimit] = useState(40)
 
   useEffect(() => {
     const fetchCoins = async () => {
